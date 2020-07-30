@@ -1,0 +1,60 @@
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1543459176-4426b37223ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+.banner p {
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.banner .btn {
+  display: inline-block;
+  color: black;
+  background-color: #d62828;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 40px;
+}
+
+.banner .btn:hover {
+  box-shadow: 2px 2px 3px black;
+  background-color: #e43535;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.cards {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 210px;
+  height: 257px;
+}
+
+.card img {
+  width: 150px;
+}
+
+.footer {
+  background-color: #2C2B2B;
+  height: 200px;
+}
